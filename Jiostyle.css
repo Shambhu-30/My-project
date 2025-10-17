@@ -1,0 +1,189 @@
+body{
+    /* margin: 0px; */
+    /* background-color: #f6f6f6; */
+    background-color: white;
+}
+
+.navbar{
+    /* background-color: transparent; */
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: flex;
+    /* border: 1px solid blue; */
+    border-bottom: 1px solid rgb(228,222,222);
+}
+
+.left-section{
+    /* border: 5px solid black; */
+  
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search-section{
+    /* border: 4px solid red; */
+    width: 40%;
+    height: 100%;
+    margin-left: 5% ;
+    
+}
+
+.right-section{
+    /* border: 3px solid green; */
+    height: 100%;
+    width: 20%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.left-menu{
+    color: #3e3e3e;
+    font-size:15px;
+}
+
+.left-menu:hover{
+    text-decoration: 2px solid underline;
+
+}
+
+.search-box{
+    width: 100%;
+    height: 90%;
+    border-radius: 20px;
+    border: 1px solid rgb(216,210,210);
+    background-color: white;
+   
+}
+.drop-down{
+    background-color: transparent;
+    border: 0px;
+}
+.right-menu{
+     color: #3e3e3e;
+    font-size:15px;
+}
+.right-menu:hover{
+    text-decoration: 2px solid underline;
+}
+
+.content{
+    height: 700px;
+    width:100%;
+    /* border: 1px solid black; */
+    margin-top:30px;
+    display: flex;
+}
+
+.side-navbar{
+  
+    width:15%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.music-list{
+    width:85%;
+    height: 100%;
+}
+
+.op1{
+    color:#828da8;
+    font-size: 15px;
+    font-weight: bold;
+}
+.op{
+    color:#3e3e3e;
+    font-size: 20px;
+    font-weight: bold;
+    &:hover{
+        color:black;
+    }
+}
+
+.lib{
+    padding-top: 15px;
+    color:#828da8;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lib-menu{
+    margin-top: 18px;
+    color: #3e3e3e;
+     font-size: 20px;
+    font-weight: bold;
+}
+.fa-solid{
+    margin-right: 10px;
+    font-size: 15px;
+}
+.button{
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+   
+}
+button{
+ padding: 15px;
+ padding-left: 25px;
+ padding-right: 25px;
+ border-radius: 20px;
+ color: lightseagreen;
+ border-color: lightseagreen;
+}
+
+
+.album{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid red; */
+    display:flex;
+    justify-content: space-around;
+}
+
+.card{
+    border:1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    &:hover{
+        box-shadow: 5px 5px 10px goldenrod;
+        transition:  0.3s ease-in-out;
+    }
+    
+}
+
+.desc{
+    text-align:center;
+    font-size: 15px;
+    margin: 0px;
+   
+    
+}
+.fans{
+    text-align:center;
+    font-size: 15px;
+    margin: 0px;
+    color: #3e3e3e;
+}
+
